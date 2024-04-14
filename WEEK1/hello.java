@@ -98,5 +98,46 @@ package WEEK1;
 // }
 // }
 
+// public class hello {
+//     public static void main(String[] args) {
+//         for (int i =1;i <=4 ; i++){
+//             for(int j =1;j <=4 ; j++){
+//                 System.out.println("*");
+//         }
+//      }
+// }
+// }
 
 
+
+// 6. WAP that prints the following output:
+
+// A well-formed Java program has a main method with { and } braces.
+
+
+
+// A System.out.println statement has ( and ) and usually a String that starts and ends with a " character.
+
+// (But we type \" instead!)
+
+// What is the difference between
+
+// a ' and a "?  Or between a " and a \"?
+
+
+
+// One is what we see when we're typing our program. The other is what appears on the "console."
+
+public class hello{
+    public static void main(String[] args) {
+        System.out.println("A well-formed Java program has a main method with { and } braces.");
+        System.out.println("A System .out.println() statement has  ( and  ) and usually a String that starts and ends with a \" character");
+        System.out.println("(But we type \\\" instead!)");
+        System.out.println("What is the difference between");
+        System.out.println("a \' and a \"? Or between a \" and a \"?");
+        System.out.println("One is what we see when we're typing our program.The other is what appears on the \"console.\"");
+    }
+
+    }
+
+  

@@ -74,3 +74,29 @@ package WEEK1;
 //     }
 // }
 
+// 5. WAP prints the following pattern:
+
+// *********
+
+// *********
+
+// *********
+
+// *********
+
+
+
+// public class hello{
+//     public static void main(String[] args) {
+
+//         System.out.println("Enter the number for its table: ");
+//         for (int i =1;i <=4 ; i++){
+            
+//                 System.out.println("* * * * * *");
+            
+//     }
+// }
+// }
+
+
+

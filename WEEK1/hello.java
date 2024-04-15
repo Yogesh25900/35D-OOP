@@ -74,6 +74,18 @@ package WEEK1;
 //     }
 // }
 
+// public class hello {
+
+//      public static void main(String[] args) {
+//         for(int i = 0; i <=5; i++) {
+//             for(int j = 0; j < i; j++) {
+//             System.out.print(" * ");
+//      }
+//      System.out.println();
+// }
+// }
+// }
+
 // 5. WAP prints the following pattern:
 
 // *********
@@ -85,28 +97,22 @@ package WEEK1;
 // *********
 
 
+//using for loop
+public class hello{
+    public static void main(String[] args) {
 
-// public class hello{
-//     public static void main(String[] args) {
-
-//         System.out.println("Enter the number for its table: ");
-//         for (int i =1;i <=4 ; i++){
+        System.out.println("Enter the number for its table: ");
+        for (int i =1;i <=4 ; i++){
+          for(int j =1; j <=4; j++) {
             
-//                 System.out.println("* * * * * *");
+                System.out.print(" * ");
             
-//     }
-// }
-// }
+    }
+    System.out.println();
+}
+}
+}
 
-// public class hello {
-//     public static void main(String[] args) {
-//         for (int i =1;i <=4 ; i++){
-//             for(int j =1;j <=4 ; j++){
-//                 System.out.println("*");
-//         }
-//      }
-// }
-// }
 
 
 
@@ -128,16 +134,15 @@ package WEEK1;
 
 // One is what we see when we're typing our program. The other is what appears on the "console."
 
-public class hello{
-    public static void main(String[] args) {
-        System.out.println("A well-formed Java program has a main method with { and } braces.");
-        System.out.println("A System .out.println() statement has  ( and  ) and usually a String that starts and ends with a \" character");
-        System.out.println("(But we type \\\" instead!)");
-        System.out.println("What is the difference between");
-        System.out.println("a \' and a \"? Or between a \" and a \"?");
-        System.out.println("One is what we see when we're typing our program.The other is what appears on the \"console.\"");
-    }
+// public class hello{
+//     public static void main(String[] args) {
+//         System.out.println("A well-formed Java program has a main method with { and } braces.");
+//         System.out.println("A System .out.println() statement has  ( and  ) and usually a String that starts and ends with a \" character");
+//         System.out.println("(But we type \\\" instead!)");
+//         System.out.println("What is the difference between");
+//         System.out.println("a \' and a \"? Or between a \" and a \"?");
+//         System.out.println("One is what we see when we're typing our program.The other is what appears on the \"console.\"");
+//     }
 
-    }
+//     }
 
-  

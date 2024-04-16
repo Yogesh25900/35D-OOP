@@ -74,17 +74,17 @@ package WEEK1;
 //     }
 // }
 
-// public class hello {
+public class hello {
 
-//      public static void main(String[] args) {
-//         for(int i = 0; i <=5; i++) {
-//             for(int j = 0; j < i; j++) {
-//             System.out.print(" * ");
-//      }
-//      System.out.println();
-// }
-// }
-// }
+     public static void main(String[] args) {
+        for(int i = 0; i <=5; i++) {
+            for(int j = 0; j < i; j++) {
+            System.out.print(" * ");
+     }
+     System.out.println();
+}
+}
+}
 
 // 5. WAP prints the following pattern:
 
@@ -98,20 +98,20 @@ package WEEK1;
 
 
 //using for loop
-public class hello{
-    public static void main(String[] args) {
+// public class hello{
+//     public static void main(String[] args) {
 
-        System.out.println("Enter the number for its table: ");
-        for (int i =1;i <=4 ; i++){
-          for(int j =1; j <=4; j++) {
+//         System.out.println("Enter the number for its table: ");
+//         for (int i =1;i <=4 ; i++){
+//           for(int j =1; j <=4; j++) {
             
-                System.out.print(" * ");
+//                 System.out.print(" * ");
             
-    }
-    System.out.println();
-}
-}
-}
+//     }
+//     System.out.println();
+// }
+// }
+// }
 
 
 

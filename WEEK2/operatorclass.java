@@ -21,6 +21,21 @@ public class operatorclass {
     System.out.println("Assignment with += "+ (aNumber1+=10));
     aNumber2 -=30; //same as aNumber2  = aNumber2-30
     System.out.println("Assignment with -= "+ (aNumber2));
+
+    /*Relational Operator */
+    int rNumber1 =10,  rNumber2 =20;
+    System.out.println("rNumber equal to rNumber2 :"+ (rNumber1 == rNumber2));
+    System.out.println("rNumber1 greater than rNumber2:"+ (rNumber1 > rNumber2));
+    System.out.println("rNumber1 less than rNumber2:"+ (rNumber1 < rNumber2));
+    System.out.println("rNumber2 not equal to rNumber2:"+ (rNumber1 !=rNumber2));
+
+    /*Logical Operator */
+    int lNumber1 =10,  lNumber2 =20;
+    boolean lExpression1 =lNumber1 ==lNumber2;
+    boolean lExpression2 = lNumber1 <=lNumber2;
+    System.out.println("And operator uses &&:"+ (lExpression1 && lExpression2));
+    System.out.println("Or operator use ||:"+ (lExpression1 || lExpression2));
+    System.out.println("Not operator uses !"+ (!lExpression1 ));
 }
     
 }

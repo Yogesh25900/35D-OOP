@@ -36,6 +36,59 @@ public class operatorclass {
     System.out.println("And operator uses &&:"+ (lExpression1 && lExpression2));
     System.out.println("Or operator use ||:"+ (lExpression1 || lExpression2));
     System.out.println("Not operator uses !"+ (!lExpression1 ));
+
+    /*Unary Operator */
+    int uNumber1 =10;
+    uNumber1++; //meaning uNumber1 = uNumber1 + 1
+
+    System.out.println("Unary for increment is ++ :"+(uNumber1));
+    uNumber1--;
+
+    System.out.println("Unary Operator for decrement : is --"+uNumber1);
+
+    /*Ternary Operator*/
+    int tNumber1 = 10 ,tNumber2 = 10;
+    boolean tExpression = tNumber1 == tNumber2;
+     /* one line if else, see the given example in if else
+     * String output;
+     * if(tExpression == true){
+     * output  ="True statement";
+     * else{
+     * output ="False Statement"}
+     * }
+     */
+    String output = tExpression ? "True Statement" : "False Statement";
+    /*HEre we can assign out with one expression
+     * if expression is true it will return the value after the '?'
+     * if the expression is false it will return the value after the ':'
+     * 
+     */
+    int numberOutput  =tNumber1 < tNumber2 ? 10:20;
+    System.out.println(output);
+    System.out.println(numberOutput);
+
+    //WAP to print whether a variable is grater or equal to 18
+    int wVar =12;
+    boolean expression = wVar >= 10;
+    System.out.println(expression ? "True":"false");
+    //WAP to print simple interest from variable
+    //Make 3 variable for amount ,time and rate and save the calculation into a varaible
+    // si = amount * time * rate/100;
+
+    int amount  = 1000 ,time  =2 ,rate = 4;
+    int si  = (amount * time * rate)/100;
+    System.out.println("The SI OF THE FOLLOWING IS : "+si);
+
+    //WAP TO print the area of perimeter of rectangle
+    int l = 10 , br =20;
+    int ar  = l * br;
+    int p  = 2*(l + br);
+    System.out.println("Area of rectangle:"+ar);
+    System.out.println("Perimeter of rectangle:"+p);
+
+
+
+
 }
     
 }

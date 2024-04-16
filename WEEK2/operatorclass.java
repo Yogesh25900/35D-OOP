@@ -7,7 +7,7 @@ public class operatorclass {
     int sum = a + b; //here the '+' is an arithmetic operator
     System.out.println("Addition for a+b is " + sum  );
     System.out.println("Difference for a-b is " + (a-b));
-    System.out.println("Mutliplication for axb is " + (a*b));
+    System.out.println("Multiplication for axb is " + (a*b));
     System.out.println("Divsion for a/b is " + (a/b));
     System.out.println("Modulo of a % b is " + (a%b)); 
     

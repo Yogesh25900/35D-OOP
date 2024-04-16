@@ -65,15 +65,15 @@ package WEEK2;
 */
 
 
-public class variable {
-    public static void main(String[] args) {
+// public class variable {
+//     public static void main(String[] args) {
         
     
-    double doubleVar1 = 1000.12;
-    float floatvar1 = (float) doubleVar1;
-    int intvar1 = (int) floatvar1;
-    String stringVar = "The integer is";
-    System.out.println(stringVar);
-    System.out.println(intvar1);
-    }
-}
+//     double doubleVar1 = 1000.12;
+//     float floatvar1 = (float) doubleVar1;
+//     int intvar1 = (int) floatvar1;
+//     String stringVar = "The integer is";
+//     System.out.println(stringVar);
+//     System.out.println(intvar1);
+//     }
+// }

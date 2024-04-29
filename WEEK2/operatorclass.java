@@ -17,7 +17,7 @@ public class operatorclass {
     /*or declare and assign  */
     int aNumber2 = 20;
     /*assign with another variable */
-    int aNumber3= aNumber1;
+    // int aNumber3= aNumber1;
     System.out.println("Assignment with += "+ (aNumber1+=10));
     aNumber2 -=30; //same as aNumber2  = aNumber2-30
     System.out.println("Assignment with -= "+ (aNumber2));

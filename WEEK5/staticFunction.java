@@ -33,6 +33,13 @@ public class staticFunction{
     
 
     }
+    public static void makeMultiply(double dub1,double dub2){
+        double result = 0;
+        for (int i = 1; i <= 10; i++) {
+            result += dub1;
+            System.out.println(dub1 + " x " + i + " = " + result);
+        }
+    }
 
     public static void main(String[] args) {
         //if a function is static then no need to make object
@@ -50,6 +57,7 @@ public class staticFunction{
         System.out.println("Even:"+ans);
 
         System.out.println(checkEligible(19, "Yogesh"));
+        makeMultiply(2, 3);
         
     }
 }

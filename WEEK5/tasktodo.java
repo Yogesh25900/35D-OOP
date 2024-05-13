@@ -8,8 +8,9 @@ public class tasktodo {
         for(int i=0; i<firstarray.length; i++){
             secondarray[i] = -firstarray[i];
         }
+       
         System.out.print("Array:");
-        for(int i=0; i<secondarray.length; i++){
+        for(int i=secondarray.length-1;i>=0; i--){
             System.out.print( secondarray[i]+ " "); // to print the second array
         }
 

@@ -1,6 +1,7 @@
 package WEEK6;
 
 public class mutlidimloop {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int[][] newArray  = {{10,20},
                             {-10,-20},
@@ -21,6 +22,9 @@ public class mutlidimloop {
     for(int outer = 0; outer < names.length; outer++){
         for(int index = 0; index < names[outer].length; index++){
             System.out.println("Index [" + outer+ "][" + index+ "] :" +names[outer][index]);
+            if(names[outer][index] == "Oscar"){
+                System.out.println("Oscar is in "+ outer);
+            }
 
     }
     }

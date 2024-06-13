@@ -1,7 +1,8 @@
 package WEEK6;
-import java.util.Scanner;
+
 
 public class multiarray {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // create N  dimensions array add number of square brackets
         //1D array 
